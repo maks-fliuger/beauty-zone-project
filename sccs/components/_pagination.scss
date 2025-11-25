@@ -1,0 +1,30 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    max-width: 360px;
+    padding-top: 32px;
+
+    @media screen and (min-width: $bp-desktop) {
+        max-width: 1216px;
+    }
+
+    &__button {
+        background-color: rgba(116, 114, 114, 1);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+
+        &--active {
+                background-color: rgba(43, 127, 255, 1);
+            }
+
+        @media screen and (min-width: $bp-desktop) {
+            width: 11px;
+                height: 11px;
+        }
+
+   
+    }
+}

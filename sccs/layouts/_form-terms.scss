@@ -1,0 +1,14 @@
+.form-copiwryte {
+    margin: 0 auto;
+    color: var(--color-modal-grey);
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    max-width: 213px;
+
+    &__link {
+        color: var(--color-modal-grey);
+        text-underline-offset: 3px;
+    }
+}

@@ -1,0 +1,33 @@
+.procedures-section {
+    display: flex;
+    padding-bottom: 40px;
+
+@media screen and (min-width: $bp-tablet) {
+    padding-bottom: 96px;
+}
+
+&__slider {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+
+&__procedures-cards {
+    display: grid;
+    overflow: hidden;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
