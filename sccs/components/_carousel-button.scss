@@ -1,0 +1,40 @@
+.carousel-batton {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--color-primary-black);
+    justify-content: center;
+    flex-shrink: 0;
+
+&.prev {
+        display: none;
+    
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+            align-items: center;
+            }
+        }
+
+&.next {
+        display: none;
+        transform: rotate(180deg);
+        /* justify-content: center; */
+        align-items: center;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: flex;
+        }
+    }
+
+    
+    
+
+    &:hover {
+            background-color: var(--color-brand);
+            cursor: pointer;
+        }
+}
+
+
+
