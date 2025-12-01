@@ -1,0 +1,41 @@
+.sections-stars-images {
+    position: relative;
+
+    &__star-large {
+            position: absolute;
+            right: 12px;
+            top: 104%;
+            width: 40px;
+            height: 40px;
+
+            @media screen and (min-width: $bp-desktop) {
+                    display: block;
+                    width: 64px;
+                    height: 64px;
+                    right: 410px;
+                    top: 80%;
+                }
+        }
+
+    &__star-medium {
+            position: absolute;
+            right: 150px;
+            top: 6%;
+            display: none;
+
+            @media screen and (min-width: $bp-desktop) {
+                    display: block;
+                }
+        }
+
+    &__star-small {
+        position: absolute;
+        right: 10px;
+        top: 56%;
+        display: none;
+
+        @media screen and (min-width: $bp-desktop) {
+            display: block;
+        }
+    }
+}

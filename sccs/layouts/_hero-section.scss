@@ -1,0 +1,84 @@
+.hero-section {
+    font-family: 'Play', sans-serif;
+    padding-top: 154.5px;
+        padding-bottom: 126.48px;
+        background-image: url('../images/background-image-hero-section.jpg');
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: cover;
+
+@media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('../images/background-image-hero-section@2x.jpg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+
+    }
+      
+    
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: anchor-center;
+
+    @media screen and (min-width: $bp-desktop) {
+            display: block;
+        }
+    }
+
+     &__description {
+     margin-bottom: 16px;
+     font-weight: 400;
+     font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     line-height: 1.5;
+
+}
+
+    &__main-title {
+    display: block;
+    justify-content: column;
+    margin-bottom: 32px;
+    max-width: 330px;
+
+    @media screen and (min-width: $bp-desktop) {
+         margin-bottom: 40px;
+        max-width: 529px;
+    }
+    }
+&__accent-hero-logo {
+    margin-bottom: 40px;
+    line-height: 0.8;
+    font-weight: 700;
+    font-size: 54px;
+    text-transform: capitalize;
+    color: var(--color-brand);
+
+    @media screen and (min-width: $bp-desktop) {
+            font-size: 140px;
+        }
+}
+
+&__recomenadation {
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-size: 12px;
+    color: rgba(74, 74, 74, 1);
+}
+
+
+
+}
+
+
+
+
+
+ 
+
+
+
+
